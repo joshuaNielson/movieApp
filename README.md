@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Star Icons
+
+npm install --save react-star-ratings
+
+## Potential Enhancements
+
+Make Cards resize by window size (poster images too)
+
 ## Available Scripts
 
 In the project directory, you can run:

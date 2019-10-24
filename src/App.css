@@ -1,22 +1,64 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #474747;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-family: sans-serif;
   color: white;
+  margin-bottom: 30px;
+}
+.movie-title {
+  margin: 0px;
+  margin-bottom: 2px;
+}
+.movie-subtitle {
+  color: grey;
+  font-family: sans-serif;
+  font-style: italic;
+  margin: 0px;
+  margin-bottom: 15px;
 }
 
-.App-link {
-  color: #09d3ac;
+.rating-number {
+  align-items: right;
+  background-color: rgb(9, 184, 247);
+  border-radius: 25px;
+  padding: 5px;
+  margin-left: 34px;
+  font-size: 1em;
+}
+
+.rating-stars {
+  text-align: center;
+  vertical-align: middle;
+  align-items: left;
+}
+
+.card-div {
+  margin: 10px;
+  width: 200px;
+}
+
+.card-footer {
+  background: lightgrey;
+  display: flex;
+  padding: 5px;
+  height: 28px;
+}
+
+.card-overview {
+  height: 200px;
+  overflow: auto;
+}
+
+.poster-image {
+  height: 100px;
+}
+
+.show-more {
+  display: flex;
+  justify-content: center;
 }
